@@ -1,0 +1,40 @@
+
+### /favoritos/listado
+POST http://127.0.0.1:3005/favoritos/listado
+Content-Type: application/json
+
+{
+	"title": "Naruto",
+	"release_date": "07-08-2015",
+	"poster_path": "/1k6iwC4KaPvTBt1JuaqXy3noZRY.jpg"
+}
+
+### /favoritos/
+DELETE  http://127.0.0.1:3005/favoritos/14
+Content-Type: application/json
+token:ccafeff5e43c323e80a50fc9ee99d57381f24b77
+
+{
+	"title": "Naruto",
+	"release_date": "07-08-2015",
+	"poster_path": "/1k6iwC4KaPvTBt1JuaqXy3noZRY.jpg"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
